@@ -1,0 +1,91 @@
+
+div.image-div-profile{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+    margin: 0.5rem;
+
+}
+
+.image-profile{
+    width: 36px;
+    height: auto;
+}
+
+main.table{
+    background-color: #fff8;
+    backdrop-filter: blur(4px);
+    float: left;
+    box-shadow: 0 .4rem .8rem #0002;
+    padding: 40px;
+    overflow: hidden;
+    border-radius: 1rem;
+    width: 70%;
+    
+    
+}
+
+.table-title h1{
+    font-size: 2rem;
+    color: #0009;
+    margin-bottom: 20px;
+    
+   
+   
+}
+
+.table-body{
+    max-height: 100%;
+    background-color: #fffb;
+    padding: 20px;
+    margin: 0.8rem auto;
+    border-radius: .6rem;
+    width: 100%;
+    
+    
+
+}
+table{
+    
+    border-collapse: collapse;
+    padding: 1rem;
+    width: 100%;
+    
+    
+}
+
+table, th, td{
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.3rem;
+    color: #0009;
+}
+
+
+.status {
+    padding: 1rem 0.4rem; 
+    text-align: center;
+    width: 70%;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.status.transportadora {
+    background-color: #FCB1A4;
+    text-align: center;
+    color: #D64141;
+}
+.status.encaminhado {
+    background-color: #99D3DF;
+    text-align: center;
+    color: #055d72;
+}
+.status.entregue {
+    background-color: #86e49d;
+    text-align: center;
+    color: #055d72;
+}

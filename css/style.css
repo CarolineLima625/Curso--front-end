@@ -1,0 +1,130 @@
+@import url(./form.css);
+@import url(./table.css);
+@import url(./layout.css);
+@import url(./sobre.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   font-family: 'Lato', sans-serif;
+   box-sizing: border-box;
+   font-size: 10px;
+}
+
+body {
+    min-height: 100vh;
+    background: url(../imagens/neon.jpg) center / cover;
+    
+}
+
+
+header{
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(128, 13, 200, .2);
+
+}
+
+header h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+header p{
+    font-size: 20px;
+}
+
+.sidebar{
+float: left;
+    width: 20%;
+    height: 100vh;
+
+}
+
+.sidebar h3{
+    font-size: 2rem;
+    color: #fff;
+    padding: 40px;
+    line-height: 40px;
+    background-color: #fff3;
+    border-radius: 0 0 12px 0;
+    width: 60%;
+}
+
+.navigation{
+    list-style-type: none;
+    width: 60%;
+
+ 
+}
+
+ul li{
+    padding-left: 60px;
+    width: 100%;
+    line-height: 60px;
+     border-bottom: 1px solid rgba(38, 14, 166, .9);
+
+
+}
+
+ul li a{
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.border-sidebar{
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    border-bottom: 1px solid rgba(38, 14, 166, .9);
+
+}
+
+ul li:hover a{
+    padding-left: 20px;
+    transition: .4s;
+}
+
+ul li:hover {
+    background-color: #fff2;
+    width: 100%;
+}
+
+footer{
+    float: left;
+    width: 100%;
+    background-color: #fff8;
+    padding: 60px;
+ 
+
+}
+
+footer p{
+     font-size: 1.4rem;
+     color: #0008;
+
+}
+
+/*tablet*/
+@media (max-width: 768px) {
+ nav 
+ {width: 50vw;}
+ article
+ {width: 70vw;}
+ .coluna 
+ { width: 100vw;
+  min-width: unset;
+ }
+}
+
+/*Mobile first*/
+@media (max-width: 425px) {
+ nav, article, .coluna{
+	width: 100%;
+  min-width: 320px;
+ }
+}
+
+
+

@@ -1,0 +1,68 @@
+.container{
+    float: left;
+    width: 70%;
+    background-color: #fff2;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.user-input-box, label{
+    margin-bottom: 0.6rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 2rem;
+}
+input, textarea{
+    padding: 1.3rem;
+    background-color: #fff7;
+    border-radius: 8px;
+    color: #000;
+    font-size: 1.4rem;
+    border: 1px solid transparent;
+}
+[type="text"], [type="email"], [type="assunto"], textarea, label{
+    display: block;
+    width: 100%;
+    border: 1px solid transparent;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #260CBA;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 30rem;
+}
+
+.title-container {
+    color: #fff;
+    font-size: 2rem;
+    
+}
+
+/*<div class="assunto">
+                    <span class="assunto-title">Assunto</span>
+                    <div class="assunto-title">
+                        <textarea name="assunto" id="assunto" cols="30" rows="10" placeholder="Assunto"></textarea>
+                    </div>
+                </div>
+                <div class="form-submit-btn">
+                    <input type="submit" value="Cadastrar">*/
+
+.assunto{
+    margin-top: 20px;
+}
+
+.assunto-title-span{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder  { color:#fff; font-size: 1.2rem; }
+input:-moz-placeholder { color:#4C4; }
+textarea:-moz-placeholder { color:#4C4; }
